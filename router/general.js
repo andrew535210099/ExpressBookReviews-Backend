@@ -19,7 +19,7 @@ const public_users = express.Router();
         }
         else{
           users.push({username, password});
-          return res.status(200).json({msg: "User created successfully"});
+          return res.status(200).json({msg: "Customer successfully registered. Now you can login"});
         }
       }
     }
